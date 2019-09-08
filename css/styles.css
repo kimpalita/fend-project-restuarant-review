@@ -64,6 +64,15 @@ header {
   text-transform: uppercase;
 	width: 420px;
 }
+
+.skip-link {
+	position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
