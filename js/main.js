@@ -1,3 +1,8 @@
+if ('serviceWorker' in navigator) {
+  // Supported!
+  navigator.serviceWorker.register('/sw.js');
+}
+
 let restaurants,
   neighborhoods,
   cuisines
@@ -180,6 +185,7 @@ createRestaurantHTML = (restaurant) => {
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
   more.tabindex = '0';
+  more.setAttribute('aria-label', 'More about ' + restaurant.name)
   li.append(more)
 
   return li
