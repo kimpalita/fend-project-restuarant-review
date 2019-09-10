@@ -1,6 +1,4 @@
-# Mobile Web Specialist Certification Course
----
-#### Udacity Front-End Project: Restaurant Reviews
+# Udacity Front-End Project: Restaurant Reviews
 
 ## Project Overview
 
