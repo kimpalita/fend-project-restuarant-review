@@ -1,0 +1,26 @@
+{
+  "name": "fend-project-restaurant-review",
+  "version": "1.0.0",
+  "description": "## Project Overview",
+  "main": "js/main.js",
+  "dependencies": {
+    "gulp-inline-source": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimpalita/fend-project-restuarant-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimpalita/fend-project-restuarant-review/issues"
+  },
+  "homepage": "https://github.com/kimpalita/fend-project-restuarant-review#readme"
+}
