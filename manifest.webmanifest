@@ -1,0 +1,13 @@
+{
+  "name": "Restaurant Reviews",
+  "short_name": "Restaurants",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Find the best restaurants in your area!",
+  "icons": [{
+    "src": "img/appicon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}
