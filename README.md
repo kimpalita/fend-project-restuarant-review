@@ -15,6 +15,11 @@ For the **Restaurant Reviews** projects, we were tasked with converting a static
     * Note -  For Windows systems, Python 3.x is installed as `python` by default. To start a Python 3.x server, you can simply enter `python -m http.server 8000`.
 3. With your server running, visit the site: `http://localhost:8000`
 
-## Leaflet.js and Mapbox:
+## Dependencies
+
+### Leaflet.js and Mapbox:
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/).
+
+### npm and gulp-inline-source
+[gulp-inline-source](https://www.npmjs.com/package/gulp-inline-source) package is used generate inline CSS from `src/*.html` to `/`.
